@@ -6,8 +6,8 @@ pipeline {
         stage('Step 1') {
             steps {
                 script {
-                    hello()
-                    hello()
+                    hello-world ("Dil Dil Pakistan Hello World")
+
                 }
             }
         }
