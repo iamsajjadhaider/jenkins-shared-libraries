@@ -5,7 +5,10 @@ pipeline {
     stages {
         stage('Step 1') {
             steps {
-                     script {hello()}
+                script {
+                    hello()
+                    hello()
+                }
             }
         }
         
