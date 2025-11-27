@@ -23,6 +23,8 @@ pipeline {
         
         stage('Step 4') {
             steps {
+
+                     script {hello()}
                      script {clone("https://github.com/iamsajjadhaider/jenkins-shared-libraries.git", "main")}
             }
         }
