@@ -5,10 +5,7 @@ pipeline {
     stages {
         stage('Step 1') {
             steps {
-                script {
-                    hello-world ("Dil Dil Pakistan Hello World")
-
-                }
+                script {hello-world ("Pakistan")}
             }
         }
         
